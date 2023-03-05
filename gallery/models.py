@@ -3,10 +3,10 @@ from django.db import models
 class Fotografia(models.Model):
 
     OPCOES_CATEGORIA = [
-        ("NEBULOSA", "NEBULOSA"),
-        ("ESTRELA", "ESTRELA"),
-        ("GALÁXIA", "GALÁXIA"),
-        ("PLANETA", "PLANETA")
+        ("Nebulosa", "Nebulosa"),
+        ("Estrela", "Estrela"),
+        ("Galáxia", "Galáxia"),
+        ("Planeta", "Planeta")
     ]
 
     nome = models.CharField(max_length=100, null=False, blank=False)
